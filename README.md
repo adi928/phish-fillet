@@ -1,8 +1,6 @@
-# Phish-Fillet
-A command line tool used to scrape bulk phishing urls for various data.
-
-
 ![phish-fillet](https://i.imgur.com/AdgnlQw.png)
+
+A command line tool used to scrape bulk phishing urls for various data.
 
 ## Install
 
