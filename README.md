@@ -2,7 +2,8 @@
 A command line tool used to scrape bulk phishing urls for various data.
 
 
-![phish-fillet](https://i.imgur.com/Q0lNoaa.png)
+![phish-fillet](https://i.imgur.com/AdgnlQw.png)
+
 
 ## Example
 
@@ -17,6 +18,8 @@ A command line tool used to scrape bulk phishing urls for various data.
 **-d** download zip and php file types
 
 **-dd** save downloads to specfied directory
+
+Screenshot of similiar results: https://i.imgur.com/Q0lNoaa.png
 
 ## Features
 
