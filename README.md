@@ -20,7 +20,7 @@ This should install all required dependencies. Else, the program will ask if you
 
 This program relies on phishing URLs. You can get hourly updated phishing URLS from Mitchell Krogza's database.
 
->sort raw-urls.txt | uniqe -w20 > urls.txt
+>sort raw-urls.txt | uniq -w20 > urls.txt
 
 This will assist in sorting and removing any duplicate domain entries.  
 
