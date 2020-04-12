@@ -1,4 +1,4 @@
-![phish-fillet](https://i.imgur.com/pH1Ffi1.png)
+![phish-fillet](https://i.imgur.com/eNvQcxNm.jpg)
 
 A command line tool used to scrape bulk phishing urls for various data.
 
