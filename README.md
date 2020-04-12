@@ -34,7 +34,7 @@ This will assist in sorting and removing any duplicate domain entries.
 
 **-f** specify the file
 
-**-d** download zip and php file types
+**-d** download specified file types: e.g. zip, php, txt, css, html, etc.
 
 **-dd** save downloads to specfied directory
 
