@@ -1,6 +1,22 @@
 # Phish-Fillet
-A command line tool used to analyze and scrape bulk phishing urls for various data.
+A command line tool used to scrape bulk phishing urls for various data.
 
+
+![phish-fillet](https://i.imgur.com/Q0lNoaa.png)
+
+## Example
+
+**./fillet.py -gvf urls.txt -d zip php -dd /tmp/found**
+
+**-v** verbose
+
+**-g** enable geo-ip location
+
+**-f** specify the file
+
+**-d** download zip and php file types
+
+**-dd** save downloads to specfied directory
 
 ## Features
 
