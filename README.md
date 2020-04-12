@@ -4,6 +4,27 @@ A command line tool used to scrape bulk phishing urls for various data.
 
 ![phish-fillet](https://i.imgur.com/AdgnlQw.png)
 
+## Install
+
+**Required**
+> git clone https://github.com/00011100/phish-fillet.git
+
+Run this command to clone the git repository to your current working folder.
+
+>pip3 install -r requirements.txt
+
+This should install all required dependencies. Else, the program will ask if you would like to download any missing dependencies.
+
+
+
+**Recommended**
+>wget https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-links-NEW-today.txt -O raw-urls.txt
+
+This program relies on phishing URLs. You can get hourly updated phishing URLS from Mitchell Krogza's database.
+
+>sort raw-urls.txt | uniqe -w20 > urls.txt
+
+This will assist in sorting and removing any duplicate domain entries.  
 
 ## Example
 
@@ -36,6 +57,15 @@ Screenshot of similiar results: https://i.imgur.com/Q0lNoaa.png
 **Verbose modes:**     There is a verbose mode to spit out additional information to the screen as well as a quiet mode which just 
                    features a progress bar.
                    
+## Bugs
+### I'm sure there are plenty. 
+
+For starters: urls with specified ports will not be scanned. This is due to defaults within the urlparse function. 
+This will be addressed.
+
+The order in which some directories are searched may cause folders to be searched more than once. 
+This is something that will be optimized.
+
 
 ## Planned Features
 
@@ -69,12 +99,3 @@ Screenshot of similiar results: https://i.imgur.com/Q0lNoaa.png
 
 [+] Post Data Module
     -- Find urls once bogus credential data has been posted
-
-## Bugs
-### I'm sure there are plenty. 
-
-For starters: urls with specified ports will not be scanned. This is due to defaults within the urlparse function. 
-This will be addressed.
-
-The order in which some directories are searched may cause folders to be searched more than once. 
-This is something that will be optimized.
