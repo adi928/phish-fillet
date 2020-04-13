@@ -1,6 +1,6 @@
 ![phish-fillet](https://i.imgur.com/eNvQcxNm.jpg)
 
-A command line tool used to scrape bulk phishing urls for various data. 
+A command line tool used to scrape phishing urls in bulk.
 
 
 This tool can be used to download phishing kits and other misc files that can be found in a phishing environment. At times you may stumble upon txt files containing stolen credentials or signs of a php web shell. Use this tool to assist you with your research or simple curiosity. Currently, Phish Fillet is not using multi-threading or any other libraries to optimize http requests. Meaning, for this initial-release version expect longer wait times while querying url list. This tool may be best used when set as a cron job / scheduled task, or in the background while working on other task.
